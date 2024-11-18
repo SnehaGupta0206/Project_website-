@@ -1,0 +1,55 @@
+ body {
+     
+	  padding-top:150px;
+	  padding-bottom:50px;
+	  background-image:url('https://img1.picmix.com/output/stamp/normal/3/5/0/8/1388053_c361b.gif');
+	  background-size:750px 800px;
+	  align-items:center;
+	  }
+	  
+  .container {
+      width: 400px;
+      padding: 30px 40px ;
+      border-radius: 12px;
+      box-shadow: 0 0 10px ;
+	  border:2px rgba(255,0,144,0.2);
+	  backdrop-filter: blur(15px);
+}
+
+h1 {
+  text-align: center;
+  color:#fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color:#fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0c0a0a;
+  border-radius: 5px;
+}
+
+.wrapper{
+padding-right:10px;
+}
+
+input[type="submit"] {
+  background-color: #070607;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #423c47;
+}

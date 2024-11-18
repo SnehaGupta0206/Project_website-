@@ -1,0 +1,72 @@
+<html>
+<head>
+<title> Garden </title>
+<link rel="stylesheet" href="style-portfolio.css">
+
+
+</head>
+<body>
+    <nav>
+        <ul class="nav__links">
+          <li class="link"><a href="index.html">HOME</a></li>
+          <li class="link"><a href="contact us.html">CONTACT</a></li>
+            <li class="nav__logo">
+              <img src="assets/logo.png" alt="logo" />
+              <h4>SIMPLY HOME</h4>
+              <p>DECORATORS</p>
+            </li>
+          <div id="main">
+          <li class="link"><a href="#">SERVICES</a>
+            <ul class="sub-nav">
+              <li><a href="front elevation.html">Elevation</a></li>
+              <li><a href="entrance.html">Entrance</a></li>
+              <li><a href="garden.html">Garden</a></li>
+              <li><a href="backyard.html">Backyard</a></li>
+            </ul>
+          </li>
+        </div>
+          <li class="link"><a href="login form.html">LOGIN</a></li>
+        </ul>
+      </nav>
+<div class="full-img" id="fullImgbox">
+<img src="images/garden/g1.JPG" id="fullImg">
+<span onclick="closefullImg()">X</span>
+</div>
+<h1> Garden </h1>
+<div class="img-gallery">
+
+<img src="assets/garden/g1.jpg" onclick="openfullImg(this.src)">
+<img src="assets/garden/g2.jpg" onclick="openfullImg(this.src)">
+<img src="assets/garden/g3.WEBP" onclick="openfullImg(this.src)">
+<img src="assets/garden/g4.jpg" onclick="openfullImg(this.src)">
+<img src="assets/garden/g5.jpg" onclick="openfullImg(this.src)">
+<img src="assets/garden/g6.WEBP" onclick="openfullImg(this.src)">
+<img src="assets/garden/g7.jpg" onclick="openfullImg(this.src)">
+<img src="assets/garden/g8.jpg" onclick="openfullImg(this.src)">
+
+</div>
+
+
+<script>
+
+var fullImgbox = document.getElementById("fullImgbox");
+var fullImg = document.getElementById("fullImg");
+
+function openfullImg(pic){
+fullImgbox.style.display = "flex";
+fullImg.src =pic;
+}
+
+function closefullImg(pic){
+fullImgbox.style.display = "none";
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
